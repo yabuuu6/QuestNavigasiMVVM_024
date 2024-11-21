@@ -31,4 +31,14 @@ fun NavigatorControl(
     val uiState by viewModel.dataModel.collectAsState()
     NavHost(
         navController = navHost,
+        startDestination = Halaman.Form.name
+    ) {
+        composable(route = Halaman.Form.name) {
+            val konteks = LocalContext.current
+            FormMahasiswaView()
+
+    }
 }
+
+
+
