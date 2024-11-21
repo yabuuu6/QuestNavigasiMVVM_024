@@ -46,6 +46,9 @@ fun NavigatorControl(
             )
         }
 
+        composable(route = Halaman.Data.name) {
+
+
     }
 }
 
