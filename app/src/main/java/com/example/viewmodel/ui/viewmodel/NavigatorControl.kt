@@ -22,3 +22,6 @@ enum class Halaman{
     Data
 }
 
+@Composable
+fun NavigatorControl(
+){}
