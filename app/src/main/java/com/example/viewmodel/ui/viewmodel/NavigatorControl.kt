@@ -47,10 +47,11 @@ fun NavigatorControl(
         }
 
         composable(route = Halaman.Data.name) {
-            DetailMahasiswaView()
+            DetailMahasiswaView(
+                dataMhs = uiState,
+
+            )
         }
-
-
     }
 }
 
