@@ -28,3 +28,7 @@ fun NavigatorControl(
     navHost: NavHostController = rememberNavController(),
     modifier: Any
 ) {
+    val uiState by viewModel.dataModel.collectAsState()
+    NavHost(
+        navController = navHost,
+}
